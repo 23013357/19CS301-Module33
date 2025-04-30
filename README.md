@@ -136,41 +136,38 @@ result = create_tuple(N)
 print(f"{result}")
 ```
 ### OUTPUT
-![image](https://github.com/user-attachments/assets/a16820ca-d669-4520-b141-c4e0a836c910)
+![image](https://github.com/23013357/19CS301-Module33/blob/main/dd.png)
 
 
  
 ### RESULT
 Thus the python program for printing a tuple with numbers that are multiples of 5 up to n, was implemented and executed successfully.
 
-Exp.No:3(e)	SEB- STRING SLICING
+Exp.No:3(e)	SEB- BREAK STRING
 ### AIM
-To write a python function that accepts the string. Form a new string by reversing the characters in the given string from 4 th position to 10  th position with alternate characters and print the new string.
+To write a python  function that accepts the mail id and breaks the string based on "@" using an appropriate built in function.
 ### ALGORITHM
 
-Step 1:	 Begin the program.
+Step 1:	 Start the program.
 
-Step 2:	 Take a slice of input_string starting from index 2 up to index 10.
+Step 2:	 Define a function splitstring(s) that takes a string s as input.
 
-Step 3:	 Reverse the substring.
+Step 3:	 Inside the function, use the split() method to divide the string at every occurrence of the @ symbol.
 
-Step 4:	 slice the reversed string, extracting every second character, starting from the first.
+Step 4:	 Print the list of resulting substrings.
 
-Step 5:	 Print the sliced string in the above step.
+Step 5:	 End the function.
 
-Step 6:	 Terminate the program.
 ### PROGRAM
 ```
-def slice(input_string):
-    substring = input_string[2:10:]
-    reversed_substring = substring[::-1]
-    print(f"The reversed string is '{reversed_substring[::2]}'")
+def splitstring(s):
+    print(s.split("@"))
 ```
 ### OUTPUT
  ![image](https://github.com/user-attachments/assets/1c3e5d33-4525-44e9-93c4-3431af135a04)
 
 ### RESULT
-Thus the python function that accepts the string. Form a new string by reversing the characters in the given string from 4 th position to 10  th position with alternate characters and print the new string was implemented and executed successfully.
+Thus the python  function that accepts the mail id and breaks the string based on "@" using an appropriate built in function was implemented and executed successfully.
 
 
 
