@@ -164,7 +164,7 @@ def splitstring(s):
     print(s.split("@"))
 ```
 ### OUTPUT
- ![image](https://github.com/user-attachments/assets/1c3e5d33-4525-44e9-93c4-3431af135a04)
+ ![image](https://github.com/23013357/19CS301-Module33/blob/main/FF.png)
 
 ### RESULT
 Thus the python  function that accepts the mail id and breaks the string based on "@" using an appropriate built in function was implemented and executed successfully.
