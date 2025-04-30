@@ -30,7 +30,7 @@ def remove(s):
     print(c)
 ```
 ### OUTPUT
- ![image](https://github.com/user-attachments/assets/ab789972-0bcc-4de6-a234-f80f5209ed92)
+ ![image](https://github.com/23013357/19CS301-Module33/blob/main/pp.png)
 
 ### RESULT
 Thus the python program of string and remove is implemented and executed successfully.
