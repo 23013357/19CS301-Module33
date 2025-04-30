@@ -103,7 +103,7 @@ for num in numbers:
 print("Sum=",sum)
 ```
 ### OUTPUT
- ![image](https://github.com/user-attachments/assets/a21369b0-1967-4362-b91f-84bb82becbcd)
+ ![image](https://github.com/23013357/19CS301-Module33/blob/main/ss.png)
 
 ### RESULT
 Thus the python program  display the sum of all the values which are ending with 2 from a list was implemented and executed successfully.
