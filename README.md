@@ -67,41 +67,46 @@ else:
     print("Not matched!")
 ```
 ### OUTPUT
- ![image](https://github.com/user-attachments/assets/b473b268-4127-4409-9985-e43d47b02847)
+ ![image](https://github.com/23013357/19CS301-Module33/blob/main/aa.png)
 
 ### RESULT
 Thus the python program for pattern matching using regular expression was  implemented and executed successfully.
 
-Exp.No:3(c)	LIST- EVEN NUMBERS LIST
+Exp.No:3(c)	LIST- SUM NUMBERS LIST
 
 ### AIM
-To write a python function that accepts N and to create a list with even numbers up to N.
+To write a python program to display the sum of all the values which are ending with 2 from a list.
 ### ALGORITHM
 
-Step 1:	 Begin the program.
+Step 1:	 Start the program.
 
-Step 2:	 Accept an integer a.
+Step 2:	 Input a list of numbers and store it in the variable numbers.
 
-Step 3:	 Create an empty list l.
+Step 3:	 Initialize a variable sum with 0 to keep track of the total.
 
-Step 4:	In For Loop, Iterate through the numbers from 1 to a-1.For each number i, check if i is even: If i % 2 == 0, append i to the list l.
+Step 4:	 Loop through each number num in the list numbers:
 
-Step 5:	 Print the list l which contains all even numbers from 1 to a-1.
+Step 5:	 If num % 10 == 2 (i.e., the number ends with digit 2), then:
 
-Step 6:	 Terminate the program.
+Step 6:	 Add num to sum.
+
+Step 7:	 After the loop ends, print the final value of sum.
+
+Step 8:	 End the program.
 ### PROGRAM
-```def createlist(a):
-    l=[]
-    for i in range(1,a):
-        if (i%2==0):
-            l.append(i)
-    print(l)
+```
+numbers=eval(input())
+sum=0
+for num in numbers:
+    if num%10==2:
+        sum+=num
+print("Sum=",sum)
 ```
 ### OUTPUT
  ![image](https://github.com/user-attachments/assets/a21369b0-1967-4362-b91f-84bb82becbcd)
 
 ### RESULT
-Thus the python program for printing a list with even numbers up to n, was implemented and executed successfully.
+Thus the python program  display the sum of all the values which are ending with 2 from a list was implemented and executed successfully.
 
 Exp.No:3(d)	TUPLES- A TUPLE WITH MULTIPLES OF 5
 ### AIM
